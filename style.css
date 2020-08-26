@@ -50,3 +50,18 @@ img.frame{
 .btns .prev{
   margin-right: auto;
 }
+
+element.style {
+  display: none;
+  height: 80px;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.menu li ul {
+  display: none;
+  margin-left: -40px;
+  position: absolute;
+}
