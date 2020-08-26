@@ -50,3 +50,35 @@ img.frame{
 .btns .prev{
   margin-right: auto;
 }
+
+/**/
+.container{
+  border: 1px solid #333;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.pic{
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.fl{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.fr{
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
+.txt{
+  /*background-color: red;
+    overflow: hidden; */
+}
+
+
