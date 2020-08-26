@@ -50,3 +50,15 @@ img.frame{
 .btns .prev{
   margin-right: auto;
 }
+
+#main_nav ul li ul{
+  position: absolute;
+  top:30px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  display: none;
+}
+
+#main_nav ul li:hover ul{
+  display: block;
+}
