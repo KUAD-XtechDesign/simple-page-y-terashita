@@ -1,10 +1,10 @@
 
 $(function(){
 
-    $("slide").slick({dots:true});
+    $("slide").on("click",()=>{
+      $("#slide").slideToggle();
+    })
 
-    // $(".btn").on("click",()=>{
-    //   $("#slide").slideToggle();
-    // })
+    $("#slide").slick({dots:true})
     
 });
