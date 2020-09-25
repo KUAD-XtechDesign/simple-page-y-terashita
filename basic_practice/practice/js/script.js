@@ -5,6 +5,9 @@ $(function(){
       $("#slide").slideToggle();
     })
 
-    $("#slide").slick({dots:true})
-    
+    $("#slide").slick({
+        autoplay: true,
+        dots:true,
+    })
+
 });
